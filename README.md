@@ -16,10 +16,10 @@ This folder contains an example to test code.
 
 ### Usage 
 * .obj to .poly<br>
-The code Obj2poly`[..\format_conversion\src\format_conversion\Obj2poly.java]` is used for converting the model to .poly format. The code needs to run through the IDE. The path of the model needs to be spicified for running the code.
+The code Obj2poly`[..\format_conversion\src\format_conversion\Obj2poly.java]` is used for converting the model to .poly format. The code needs to run through the IDE. The path of the model needs to be spicified for running the code. The .poly format model could be tested by [TetView](http://wias-berlin.de/software/tetgen/tetview.html).
 * TetGen to FLAC3D<br>
-The code Node_ele2f3grid`[..\format_conversion\src\format_conversion\Node_ele2f3grid.java]` is used for converting the model to .f3grid format.The code needs to run through the IDE. The path of the model needs to be spicified for running the code.
+The code Node_ele2f3grid`[..\format_conversion\src\format_conversion\Node_ele2f3grid.java]` is used for converting the model to .f3grid format.The code needs to run through the IDE. The path of the model needs to be spicified for running the code.(We use Flac3D 6.0 to test the model)
 * TetGen to Cesium<br>
-The code Node_ele2tri`[..\format_conversion\src\format_conversion\Node_ele2tri.java]` is used for converting the model to .tri format.The code needs to run through the IDE and a local server. The path of the model needs to be spicified for running the code.
+The code Node_ele2tri`[..\format_conversion\src\format_conversion\Node_ele2tri.java]` is used for converting the model to .tri format.The code needs to run through the IDE and a local server. The path of the model needs to be spicified for running the code. We provide a html file`[..\Cesium_Three\index.html]` for testing the model. 
 * Examples<br>
 An example of .obj format`[..\Examples\example.obj]`is provided for testing code.
